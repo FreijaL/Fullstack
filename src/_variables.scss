@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 $primaryGreen: #173432;
 $primaryYellow: #FFDA78;
 $primaryWhite: #F8EEDF;
 $primaryRed: #FA4663;
 $primaryLightGreen: #48857A;
+
+$inter: 'Inter';
 
 
 @mixin device-size {
