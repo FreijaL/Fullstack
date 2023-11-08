@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# React files
+main.jsx
+App.jsx
+Test.jsx
