@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
-import Pizza from '../../public/svg/pizza.svg';
-import Cart from '../../public/svg/cart.svg';
+import Pizza from '/svg/pizza.svg';
+import Cart from '/svg/cart.svg';
 
 const Header = () => {
     return (
