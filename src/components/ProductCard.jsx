@@ -1,7 +1,11 @@
+//ProductCard.jsx
+
 import React from 'react';
 import './ProductCard.scss';
 
-const ProductCard = ( {product, ingredients, price}) => {
+
+//Receives the product name, ingredients, and price to display a product card.
+const ProductCard = ( {product, ingredients, price} ) => {
     return (
         <div className="product-card">
             <div className="product-card__divider">
