@@ -1,0 +1,30 @@
+@use '../_variables.scss' as vars;
+
+.thankYou-card {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: vars.$primaryWhite;
+    font-family: vars.$inter;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.thankYou-card__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.thankYou-card__timer {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.thankYou-card__orderNr {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
