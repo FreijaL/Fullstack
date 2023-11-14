@@ -10,12 +10,11 @@ import LandingPage from './pages/LandingPage';
 import CheckoutPage from './pages/users/CheckoutPage';
 import CategoryPage from './pages/users/CategoryPage';
 
-import MenuStaffPage from './pages/users/MenuStaffPage';
-import GuidePage from './pages/users/GuidePage';
-import KitchenPage from './pages/users/KitchenPage';
-import MenuStaffPage from './pages/users/MenuStaffPage';
-import HistoryPage from './pages/users/HistoryPage';
-import ServicePage from './pages/users/Service';
+import GuidePage from './pages/staff/GuidePage';
+import KitchenPage from './pages/staff/KitchenPage';
+import MenuStaffPage from './pages/staff/MenuStaffPage';
+import HistoryPage from './pages/staff/HistoryPage';
+import ServicePage from './pages/staff/Service';
 
 
 function App() {
