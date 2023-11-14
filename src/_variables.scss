@@ -1,0 +1,20 @@
+$primaryGreen: #173432;
+$primaryYellow: #FFDA78;
+$primaryWhite: #F8EEDF;
+$primaryRed: #FA4663;
+$primaryLightGreen: #48857A;
+
+
+
+@mixin device-size {
+    width: 450px;
+    min-height: 100vh;
+    background-color: $primaryGreen;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
