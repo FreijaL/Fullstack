@@ -1,14 +1,14 @@
-import './OrderConfirmation.scss';
+import style from './OrderConfirmation.module.scss';
 
 function OrderConfirmation({time, orderNr}) {
     return ( 
-        <article className='thankYou-card'>
-            <p className='thankYou-card__title'>Tack för din beställning!</p>
-            <section className='thankYou-card__timer'>
+        <article className={style.thankYouCard}>
+            <p className={style.cardTitle}>Tack för din beställning!</p>
+            <section className={style.cardTimer}>
                 <p>Snart mumsar du i dig pizza, <br/> leverans beräknas om:</p>
                 <p>{time}</p>
             </section>
-            <p className='thankYou-card__orderNr'>Order nummer: {orderNr}</p>
+            <p className={style.cardOrderNr}>Order nummer: {orderNr}</p>
         </article>
      );
 }

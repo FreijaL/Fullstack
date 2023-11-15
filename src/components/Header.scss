@@ -1,8 +1,8 @@
-@use '../_variables.scss' as vars;
+@use '../_variables.scss' as *;
 
 .header-title {
-    color: vars.$primaryYellow;
-    font-family: vars.$inter;
+    color: $primaryYellow;
+    font-family: $titleFont;
 }
 
 .header-container {
