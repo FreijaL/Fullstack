@@ -1,0 +1,14 @@
+@use '../../_variables.scss' as *;
+
+
+.nav{
+    @include flex-column;
+}
+
+.navList{
+    list-style-type: none;
+}
+
+.navListItem {
+    background-color: pink;
+}
