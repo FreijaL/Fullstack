@@ -1,15 +1,18 @@
 @use '../_variables.scss' as *;
 
-.header-title {
+.headerTitle {
     color: $primaryYellow;
     font-family: $titleFont;
+    font-size: 40px;
 }
 
-.header-container {
+.headerContainer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    align-items: baseline;
+    width: 450px;
     height: 100px;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem;
+    position: absolute;
+    top: 0;
 }

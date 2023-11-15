@@ -1,8 +1,18 @@
 @use '../../_variables.scss' as *;
 
+.pizzaIcon {
+    position: relative;
+    top: -9.5rem;
+    left: -11rem;
+    transform: rotate(180deg);
+}
 
 .nav{
+    @include device-size;
     @include flex-column;
+    font-family: $breadFont;
+    font-size: 45px;
+    color: $primaryWhite;
 }
 
 .navList{
@@ -10,5 +20,16 @@
 }
 
 .navListItem {
-    background-color: pink;
+    text-align: center;
+}
+
+.navListItemImportant {
+    color: $primaryYellow;
+}
+
+.footer {
+    font-size: 25px;
+    position: relative;
+    bottom: -9rem;
+    right: -8.5rem;
 }

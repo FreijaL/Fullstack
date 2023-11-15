@@ -1,3 +1,8 @@
+/* @use '../_variables.scss' as *; */
+
 body {
-  background-color: #173432;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
