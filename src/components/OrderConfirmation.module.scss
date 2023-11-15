@@ -1,0 +1,30 @@
+@use '../_variables.scss' as *;
+
+.thankYouCard {
+    width: 80vw;
+    @include flex-column;
+    background-color: $primaryWhite;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.cardTitle {
+    font-family: $titleFont;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.cardTimer {
+    font-family: $breadFont;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.cardOrderNr {
+    font-family: $breadFont;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
