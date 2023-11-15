@@ -2,12 +2,12 @@
 
 @use '../_variables.scss' as vars;
 
-.header-title {
+.headerTitle {
     color: vars.$primaryYellow;
     font-family: vars.$inter;
 }
 
-.header-container {
+.headerContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;

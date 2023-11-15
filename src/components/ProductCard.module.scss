@@ -1,8 +1,8 @@
 /* ProductCard.scss */
 
-@use '../_variables.scss' as vars;
+@use '../_variables.scss' as *;
 
-.product-card {
+.productCard {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,26 +11,26 @@
     text-align: center;
     width: 100%;
     height: 100px;
-    background-color: vars.$primaryWhite;
+    background-color: $primaryWhite;
     border-radius: 10px;
     margin-bottom: 1rem;
 }
 
-.product-card__title {
-    font-family: vars.$inter;
+.productCardTitle {
+    font-family: $inter;
     margin: 0px;
     text-align: left;
     padding-left: 1rem;
 }
 
-.product-card__ingredients {
-    font-family: vars.$inter;
+.productCardIngredients {
+    font-family: $inter;
     padding-left: 1rem;
     text-align: left;
     margin-top: 0px;
 }
 
-.product-card__price {
-    font-family: vars.$inter;
+.productCardPrice {
+    font-family: $inter;
     padding-right: 1rem;
 }
