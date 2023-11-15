@@ -1,0 +1,15 @@
+@use '../variables.scss' as *;
+
+.landingPageContainer {
+    @include device-size;
+    @include flex-column;
+    gap: 2rem;
+    color: $primaryWhite;
+    font-size: 30px;
+    font-family: $breadFont;
+}
+
+.textContainer {
+    margin-bottom: 4rem;
+    text-align: center;
+}
