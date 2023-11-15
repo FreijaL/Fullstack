@@ -1,0 +1,32 @@
+@use '../_variables.scss' as *;
+
+.paymentCard {
+    background-color: $primaryWhite;
+    max-width: 80vw;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.paymentTitle {
+    font-family: $titleFont;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.paymentOptionList {
+    font-family: $breadFont;
+    font-size: 1.2rem;
+}
+
+.paymentInputWrap {
+    @include flex-column;
+}
+
+.priceTotal {
+    font-family: $breadFont;
+    font-size: 1.2rem;
+    text-align: center;
+}

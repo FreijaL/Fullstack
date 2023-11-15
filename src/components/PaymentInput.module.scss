@@ -1,0 +1,11 @@
+@use '../_variables.scss' as *;
+
+.paymentLabel {
+    font-family: $breadFont;
+}
+
+.paymentInput {
+    font-family: $breadFont;
+    border: none;
+    border-radius: 5px;
+}
