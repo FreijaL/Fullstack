@@ -1,0 +1,22 @@
+/* CategoryCard.scss */
+
+@use '../_variables.scss' as *;
+
+.categoryCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: $primaryWhite;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.categoryCardTitle {
+    font-family: $inter;
+    font-size: 2rem;
+    transform: translate(0, -25%);
+}

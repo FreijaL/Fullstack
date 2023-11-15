@@ -1,0 +1,36 @@
+/* ProductCard.scss */
+
+@use '../_variables.scss' as *;
+
+.productCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: $primaryWhite;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.productCardTitle {
+    font-family: $inter;
+    margin: 0px;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.productCardIngredients {
+    font-family: $inter;
+    padding-left: 1rem;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.productCardPrice {
+    font-family: $inter;
+    padding-right: 1rem;
+}
