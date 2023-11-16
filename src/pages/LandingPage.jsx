@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
-import GreenButton from '../Components/GreenButton';
-import YellowButton from '../Components/YellowButton';
+import GreenButton from '../components/GreenButton';
+import YellowButton from '../components/YellowButton';
 import style from './LandingPage.module.scss';
 
 

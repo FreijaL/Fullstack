@@ -1,3 +1,4 @@
+import GreenButton from './GreenButton';
 import style from './Payment.module.scss';
 import PaymentInput from './PaymentInput';
 
@@ -16,6 +17,7 @@ function Payment({priceTotal}) {
                 <PaymentInput label={'Adress:'}/>
             </section>
             <p className={style.priceTotal} >Totalt: {priceTotal}</p>
+            <GreenButton title={"Betala"}/>
         </article>
      );
 }
