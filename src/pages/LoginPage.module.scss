@@ -1,0 +1,18 @@
+@use '../variables.scss' as *;
+
+.loginPageContainer {
+    @include device-size;
+    @include flex-column;
+    color: $primaryYellow; 
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.fieldContainer {
+    margin-bottom: 4rem;
+}
+
+.forgotPassword {
+    position: relative;
+    right: -55%;
+}

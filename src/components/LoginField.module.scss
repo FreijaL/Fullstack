@@ -1,0 +1,23 @@
+@use '../variables.scss' as *;
+
+.loginFieldContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: .5rem;
+}
+
+.inputField{
+    width: 250px;
+    height: 50px;
+    border-radius: $defaultBorderRadius;
+    border: none;
+    background-color: $primaryWhite;
+    padding: .5rem;
+}
+
+.inputField:focus {
+    outline: none;
+}
