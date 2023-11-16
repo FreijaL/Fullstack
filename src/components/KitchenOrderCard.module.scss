@@ -1,0 +1,43 @@
+@use '../variables.scss' as *;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.kitchenOrderCardContainer {
+    width: 80%;
+    min-height: auto;
+    padding: 1rem;
+    background-color: $primaryWhite;
+    border-radius: $defaultBorderRadius;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1.5rem;
+}   
+
+.gridOne {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    // background-color: pink;
+}
+.gridTwo {
+    grid-column: 4 / 5;
+    grid-row: 1;
+    // background-color: orchid;
+}
+.gridThree {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    // background-color: orchid;
+    list-style-type: none;
+}
+.gridFour {
+    grid-column: 4 / 5;
+    grid-row: 2;
+    // background-color: pink;
+    text-align: end;
+    height: 40px;
+}
+

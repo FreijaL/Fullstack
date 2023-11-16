@@ -2,6 +2,8 @@
 
 .headerContainer {
     width: 100%;
-    // position: absolute;
-    // top: 0;
+    display: flex;
+    justify-items: flex-start;
+    gap: 8rem;
+    padding: 1rem;
 }

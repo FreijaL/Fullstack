@@ -32,11 +32,11 @@ function App() {
           <Route path="/checkout" element={<CheckoutPage />} />
 
 
-          <Route path="/menu" element={<MenuStaffPage />} />
-          <Route path="/guide" element={<GuidePage />} />
-          <Route path="/kitchen" element={<KitchenPage />} />
-          <Route path="/service" element={<ServicePage />} />
-          <Route path="/history" element={<HistoryPage />} />
+          <Route path="/staff/menu" element={<MenuStaffPage />} />
+          <Route path="/staff/guide" element={<GuidePage />} />
+          <Route path="/staff/kitchen" element={<KitchenPage />} />
+          <Route path="/staff/service" element={<ServicePage />} />
+          <Route path="/staff/history" element={<HistoryPage />} />
         </Routes>
     </BrowserRouter>
   )

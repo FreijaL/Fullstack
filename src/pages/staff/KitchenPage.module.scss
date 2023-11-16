@@ -1,0 +1,7 @@
+@use '../../variables.scss' as *;
+
+.kitchenPageContainer {
+    @include device-size;
+    @include flex-column;
+    justify-content: start;
+}
