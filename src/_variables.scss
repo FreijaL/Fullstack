@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rokkitt:wght@400;500;600;700&display=swap');
 
-$primaryGreen: #173432;
+$primaryPurple: #390628;;
 $primaryYellow: #FFDA78;
 $primaryWhite: #F8EEDF;
 $primaryRed: #FA4663;
-$primaryLightGreen: #48857A;
+$primaryGreen: #51AB5A;
 
 $titleFont: "Rokkitt";
 $breadFont: "Roboto";
@@ -13,11 +13,15 @@ $breadFont: "Roboto";
 @mixin device-size {
     width: 450px;
     min-height: 100vh;
-    background-color: $primaryGreen;
+    background-color: $primaryPurple;
+    border-radius: 10px;
 }
 
 @mixin flex-column {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
+
+$defaultShadow: 4px 4px 10px 0px rgba(26, 26, 26, 0.5);

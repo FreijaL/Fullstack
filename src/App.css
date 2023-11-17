@@ -1,6 +1,8 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* @use '../_variables.scss' as *; */
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

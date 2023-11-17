@@ -1,0 +1,13 @@
+@use '../variables.scss' as *;
+
+.yellowButton {
+    width: 250px;
+    height: 50px;
+    background-color: $primaryYellow;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-family: $breadFont;
+    font-size: 20px;
+    box-shadow: $defaultShadow;
+}

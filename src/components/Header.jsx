@@ -1,4 +1,7 @@
-//Header.jsx
+import React from 'react';
+import style from './Header.module.scss';
+import Pizza from '/svg/pizza.svg';
+import Cart from '/svg/cart.svg';
 
 import React from 'react';
 import style from './Header.module.scss' ;
